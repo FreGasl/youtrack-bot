@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "date-and-time": "^3.3.0",
+    "dotenv": "^17.2.1",
+    "fastq": "^1.17.1",
+    "jira-client": "^8.2.2",
+    "markdown-it": "^14.1.0",
+    "node-cron": "^3.0.3",
+    "node-html-to-image": "^4.0.0",
+    "node-telegram-bot-api": "^0.65.1",
+    "pg-promise": "^11.6.0",
+    "youtrack-rest-client": "^1.6.0"
+  },
+  "name": "youtrack-bot",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js --max-old-space-size=4096"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
